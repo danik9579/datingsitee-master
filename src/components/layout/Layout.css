@@ -1,0 +1,25 @@
+.layout { 
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: 10% 85% 5%; 
+  }
+  
+  
+  
+  .layout>header {
+    grid-column: span 12;
+  }
+  
+  .layout>footer {
+    grid-column: span 12;
+  }
+  
+  
+  .layout>main {
+    grid-column: span 12;
+    grid-row: auto;
+  } 
+  
+  

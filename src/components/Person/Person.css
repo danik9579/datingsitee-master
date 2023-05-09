@@ -1,0 +1,40 @@
+.person{
+    display: inline-block;
+    background-color: rgb(245, 245, 245);
+    border: 1px black solid;
+    height: 70%;
+    width: 30%;
+    font-size:1vw;
+}
+
+.person .image{
+    height: 60%;
+    width: 100%;
+}
+
+.person .details{
+    height: 20%;
+}
+
+.person .buttons{
+    height: 20%;
+}
+
+.person .image-box{
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+.person .buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.person .button{
+    font-size: 3vw;
+}
+
+.person .button:hover{
+    cursor:pointer;
+}
